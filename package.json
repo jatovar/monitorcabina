@@ -1,15 +1,16 @@
 {
   "name": "monitorcabina",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Aplicación en segundo plano para monitorear siniestros reportados por la aplicacion movil",
   "main": "main.js",
-
   "build": {
-    "publish": [{
+    "publish": [
+      {
         "provider": "github",
         "owner": "jatovar",
         "repo": "monitorcabina"
-    }]
+      }
+    ]
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "homepage": "https://github.com/oxheyhall/timesheets-desktop",
@@ -24,6 +25,7 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "1.7.9",
+    "electron-builder": "^20.13.3",
     "electron-installer-windows": "0.2.0"
   },
   "dependencies": {
