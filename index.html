@@ -1,19 +1,16 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
+    <title>Seguros el potosí - Notificaciones</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        
   </head>
-  <body>
-    <h1>Hello World!</h1>
-    <!-- All of the Node.js APIs are available in this renderer process. -->
-    We are using Node.js <script>document.write(process.versions.node)</script>,
-    Chromium <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
-  </body>
-
-  <script>
-    // You can also require other files to run in this process
-    require('./renderer.js')
-  </script>
+  <body style="overflow:hidden;">
+      <webview id="webview" preload="./manipulateGoogle.js" src="http://localhost:53101/Alerta/Index" style="position:absolute;width:100%;height:100%;"></webview>
+      <script>
+        // need to have a script tag make webview work even if you don't plan to use it...
+      </script>
+    </body>
 </html>
