@@ -28,7 +28,12 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "1.7.9",
+<<<<<<< HEAD
     "electron-builder": "^20.13.3"
+=======
+    "electron-builder": "^20.13.3",
+    "electron-installer-windows": "0.2.0"
+>>>>>>> 2bef82d76b8644137e26c54df8f1e1e508449870
   },
   "dependencies": {
     "audio-play": "^2.2.0",
