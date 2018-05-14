@@ -92,7 +92,7 @@ app.on('ready', () => {
   tray = new Tray(path.join(__dirname,"resources", "favicon.png"))
  contextMenu = Menu.buildFromTemplate([
     {
-      label: 'Habilitar sonido', 
+      label: 'Habilitar sonido 00000', 
       type: 'checkbox', 
       checked: true
     },

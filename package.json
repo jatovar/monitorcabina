@@ -1,6 +1,6 @@
 {
   "name": "monitorcabina",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Aplicación en segundo plano para monitorear siniestros reportados por la aplicacion movil",
   "main": "main.js",
   "scripts": {
