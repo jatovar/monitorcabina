@@ -1,22 +1,36 @@
 {
-  "name": "electron-quick-start",
-  "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "name": "monitorcabina",
+  "version": "1.0.1",
+  "description": "Aplicación en segundo plano para monitorear siniestros reportados por la aplicacion movil",
   "main": "main.js",
-  "scripts": {
-    "start": "electron ."
+
+  "build": {
+    "publish": [{
+        "provider": "github",
+        "owner": "jatovar",
+        "repo": "monitorcabina"
+    }]
   },
   "repository": "https://github.com/electron/electron-quick-start",
+  "homepage": "https://github.com/oxheyhall/timesheets-desktop",
   "keywords": [
-    "Electron",
+    "realtime",
     "quick",
     "start",
-    "tutorial",
-    "demo"
+    "monitor",
+    "siniestros"
   ],
-  "author": "GitHub",
+  "author": "Seguros el potosi 2017",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "~1.7.8"
+    "electron": "1.7.9",
+    "electron-installer-windows": "0.2.0"
+  },
+  "dependencies": {
+    "audio-play": "^2.2.0",
+    "auto-launch": "^5.0.5",
+    "bootstrap": "^3.3.7",
+    "play-sound": "^1.1.2",
+    "signalr-client": "0.0.17"
   }
 }
